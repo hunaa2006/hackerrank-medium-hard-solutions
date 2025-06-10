@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Solution1 {
 
     static class SinglyLinkedListNode {
         public int data;

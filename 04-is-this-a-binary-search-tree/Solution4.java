@@ -7,11 +7,11 @@ The Node class is defined as follows:
         Node right;
      }
 */
-    boolean checkBST(Node root) {
+    boolean checkBST(Solution5 root) {
          return checkBst(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
 
-    boolean checkBst(Node root, int min, int max){
+    boolean checkBst(Solution5 root, int min, int max){
         if (root == null) return true;
 
         return 

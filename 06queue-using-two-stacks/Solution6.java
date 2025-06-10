@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Solution6 {
 
     public static void main(String[] args) throws IOException { 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

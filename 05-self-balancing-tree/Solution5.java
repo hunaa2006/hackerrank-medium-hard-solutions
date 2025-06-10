@@ -1,4 +1,4 @@
-	/* Class node is defined as :
+	Solution5lass node is defined as :
     class Node 
     	int val;	//Value
     	int ht;		//Height
@@ -7,9 +7,9 @@
 
 	*/
 
-	static Node insert(Node root,int val)
+	static Solution5 insert(Solution5 root,int val)
     {
-         Node newNode = new Node();
+         Solution5 newNode = new Solution5();
     newNode.val = val;
     newNode.ht = 0;
     newNode.left = null;
@@ -23,13 +23,13 @@
 
     return root;
 }
-static public int height(Node x) {
+static public int height(Solution5 x) {
     if (x == null) return -1;
     else return x.ht;
 }
 
-static public Node rotatewithleft(Node c) {
-    Node p; 
+static public Solution5 rotatewithleft(Solution5 c) {
+    Solution5 p; 
 
     p = c.left;
     c.left = p.right;
@@ -41,8 +41,8 @@ static public Node rotatewithleft(Node c) {
     return p;
 }
 
-static public Node rotatewithright(Node c) {
-    Node p;  
+static public Solution5 rotatewithright(Solution5 c) {
+    Solution5 p;  
 
     p = c.right;
     c.right = p.left;
@@ -54,8 +54,8 @@ static public Node rotatewithright(Node c) {
     return p;
 }
 
-static public Node doublerotatewithleft(Node c) {
-    Node tmp;
+static public Solution5 doublerotatewithleft(Solution5 c) {
+    Solution5 tmp;
 
     c.left = rotatewithright(c.left);
     tmp = rotatewithleft(c);
@@ -63,8 +63,8 @@ static public Node doublerotatewithleft(Node c) {
     return tmp;
 }
 
-static public Node doublerotatewithright(Node c) {
-    Node tmp;
+static public Solution5 doublerotatewithright(Solution5 c) {
+    Solution5 tmp;
 
     c.right = rotatewithleft(c.right);
     tmp = rotatewithright(c);
@@ -72,8 +72,8 @@ static public Node doublerotatewithright(Node c) {
     return tmp;
 }
 
-static public Node avlinsert(Node newNode, Node par) {
-   Node newpar = par;  
+static public Solution5 avlinsert(Solution5 newNode, Solution5 par) {
+   Solution5 newpar = par;  
 
     if (newNode.val < par.val)  {
         if (par.left == null) {
