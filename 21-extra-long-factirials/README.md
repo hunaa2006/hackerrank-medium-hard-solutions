@@ -1,4 +1,12 @@
-Algorithms-Medium-Extra Long Factorials
+# Extra Long Factorials
+
+
+> HackerRank - Algorithms
+> Difficulty: Medium  
+
+
+## Бодлогын өгүүлбэр
+
 n бүхэл тооны факториал гэж n! гэж бичдэг бөгөөд дараах байдлаар тодорхойлогдоно:
 
 n! = n × (n-1) × (n-2) × … × 3 × 2 × 1
@@ -40,3 +48,4 @@ n!-ийн утгыг хэвлэнэ.
 Тайлбар:
 
 25! = 25 × 24 × 23 × … × 1 ийм байдлаар үр дүн гарна.
+![alt text](<Screenshot 2025-06-10 214141.png>)
