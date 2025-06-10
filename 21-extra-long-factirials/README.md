@@ -3,6 +3,7 @@
 
 > HackerRank - Algorithms
 > Difficulty: Medium  
+> [🔗 View Problem on HackerRank](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=true)
 
 
 ## Бодлогын өгүүлбэр
